@@ -1,2 +1,2 @@
-# worldcupbrackets
+# brackets.soccer
 World Cup brackets
