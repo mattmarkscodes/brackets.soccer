@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>2022 World Cup Bracket Challenge</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="leaderboard.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta property="og:title" content="2022 World Cup Bracket Challenge" />
+	<meta property="og:image" content="og-image.jpg" />
+
+</head>
+
+<body>
+
+<h1>2022 World Cup<br>Bracket Challenge</h1>
+
+<div class="container">
+
+<p>Click on a name to see their bracket</p>
+
+<div class="leaderboard">
+  <h2>
+    Leaderboard
+  </h2>
+  <ul id="leaderboard">
+   	<li class="row"><a href="brackets/player1.html"><span>1</span><mark>Player 1</mark><small class="score">0</small></a></li>
+   	<li class="row"><a href="brackets/player2.html"><span>1</span><mark>Player 2</mark><small class="score">0</small></a></li>
+   	<li class="row"><a href="brackets/player3.html"><span>3</span><mark>Player 3</mark><small class="score">0</small></a></li>
+   	<li class="row"><a href="brackets/player4.html"><span>4</span><mark>Player 4</mark><small class="score">0</small></a></li>
+   	<li class="row"><a href="brackets/player5.html"><span>4</span><mark>Player 5</mark><small class="score">0</small></a></li>
+   	<li class="row"><a href="brackets/player6.html"><span>6</span><mark>Player 6</mark><small class="score">0</small></a></li>
+   	<li class="row"><a href="brackets/player7.html"><span>7</span><mark>Player 7</mark><small class="score">0</small></a></li>
+   	<li class="row"><a href="brackets/player8.html"><span>7</span><mark>Player 8</mark><small class="score">0</small></a></li>
+   	<li class="row"><a href="brackets/player9.html"><span>9</span><mark>Player 9</mark><small class="score">0</small></a></li>
+  </ul>
+</div>
+</div>
+
+<p>Prize Pool: TBD</p><br /><br /><br /><br />
+
+<!-- AUTO SORT SCRIPT ON -->
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  let elements = []
+  let container = document.querySelector('#leaderboard')
+  // Add each row to the array
+  container.querySelectorAll('.row').forEach(el => elements.push(el))
+  // Clear the container
+  container.innerHTML = ''
+  // Sort the array from highest to lowest
+  elements.sort((a, b) => b.querySelector('.score').textContent - a.querySelector('.score').textContent)
+  // Put the elements back into the container
+  elements.forEach(e => container.appendChild(e))
+})
+</script>
+
+  
+
+</body>
+
+</html>
