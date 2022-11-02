@@ -28,12 +28,6 @@ p { color:#333; padding-bottom:0; }
 /*--------------------
 Leaderboard
 --------------------*/
-.container {
-  width: 90%;
-  max-width:500px;
-  margin:0 auto;
-  padding:0 5%;
-  }
 
 .leaderboard {
   width: 100%;
@@ -64,23 +58,9 @@ a { text-decoration:none; color:inherit; }
   -webkit-transform: translateZ(0) scale(1, 1);
           transform: translateZ(0) scale(1, 1);
 }
-/*
+
 .leaderboard ul li::before {
   content: counter(leaderboard);
-  position: absolute;
-  z-index: 2;
-  top: 15px;
-  left: 15px;
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
-  color: #2e62d2;
-  background: #fff;
-  border-radius: 20px;
-  text-align: center;
-}
-*/
-.leaderboard ul li span {  
   position: absolute;
   z-index: 2;
   top: 15px;
@@ -105,19 +85,6 @@ a { text-decoration:none; color:inherit; }
   background: none;
   color: #fff;
 }
-/*
-.leaderboard ul li mark::before, .leaderboard ol li mark::after {
-  content: '';
-  position: absolute;
-  z-index: 1;
-  bottom: -11px;
-  left: -9px;
-  border-top: 10px solid #c24448;
-  border-left: 10px solid transparent;
-  transition: all .1s ease-in-out;
-  opacity: 0;
-}
-*/
 .leaderboard ul li mark::after {
   left: auto;
   right: -9px;
@@ -149,8 +116,7 @@ a { text-decoration:none; color:inherit; }
 }
 
 .leaderboard ul li:nth-child(2) {
-  /*background: #3f8be9; (tied first, so discourage 2nd background color) */
-  background:#49a1f5;
+  background:#3f8be9; (tied first, so discourage 2nd background color)
 }
 
 .leaderboard ul li:nth-child(3) {

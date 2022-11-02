@@ -1,0 +1,52 @@
+  
+/* KEY
+
+If country loss:
+font-family: "Font Awesome 5 Free";content: "\f057";color:red;display: inline-block;padding-left: 10px;font-weight:900;
+
+If country win:
+font-family: "Font Awesome 5 Free";content: "\f058";color:green;display: inline-block;padding-left: 10px;font-weight:900;
+
+.aus-border { border-color:red; }
+
+*/
+
+
+
+
+/* ROUND OF 16 RESULTS */
+
+/* MATCH 1 = Quarterfinalist #1 */
+.q1-nl:after { font-family: "Font Awesome 5 Free";content: "\f058";color:green;display: inline-block;padding-left: 10px;font-weight:900; }
+.q1-nl-border{ border-color:green; }
+.q1-us:after { }
+.q1-us-border{ border-color:red; }
+
+/* MATCH 2 = Quarterfinalist #2 */
+.q2-ar:after { font-family: "Font Awesome 5 Free";content: "\f057";color:red;display: inline-block;padding-left: 10px;font-weight:900; }
+.q2-ar-border{ border-color:red; }
+.q2-dk:after { }
+
+/* MATCH 3 = Quarterfinalist #3 */
+.q3-de:after { }
+.q3-hr:after { }
+
+/* MATCH 4 = Quarterfinalist #4 */
+.q4-br:after { }
+.q4-kr:after { }
+
+/* MATCH 5 = Quarterfinalist #5 */
+.q5-gb-eng:after { }
+.q5-sn:after { }
+
+/* MATCH 6 = Quarterfinalist #6 */
+.q6-fr:after { }
+.q6-mx:after { }
+
+/* MATCH 7 = Quarterfinalist #7 */
+.q7-be:after { }
+.q7-es:after { }
+
+/* MATCH 8 = Quarterfinalist #8 */
+.q8-pt:after { }
+.q8-ch:after { }
