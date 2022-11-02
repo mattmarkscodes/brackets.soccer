@@ -5,13 +5,13 @@ button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}[type=
 
 body 										{ font-family: 'Inter', sans-serif; font-weight: 400; margin:0; background:#000; }
 .wrap 										{ box-sizing: border-box; max-width: 800px; margin: 0 auto; }
-.wrap-bracket 								{ box-sizing: border-box; max-width: 800px; margin: 0 auto; padding:.5em; }
+.wrap-bracket 								{ box-sizing: border-box; max-width: 800px; margin: 0 auto; }
 small 										{ font-size:100%; text-align:right; }
 .matchup									{ min-height:100px; width:100%; max-width:172px; margin:10px auto; display:block; }
-.team 										{ width:48%; float:left; text-align:center; background:#111; border-radius:10px; padding:.5em 0; margin:1em 1%;}
+.team 										{ width:48%; float:left; text-align:center; background:#151515; border-radius:10px; padding:.5em 0; margin:1em 1%;}
 .flag										{ width:100%; display:block; }
 .country									{ width:100%; display:block; margin-top:.5em; color:#FFF; text-decoration:none; font-size:80%; }
-.time										{ width:100%; display:block; text-align:center; color:#444; font-size:75%; }
+.time										{ width:100%; display:block; text-align:center; color:#555; font-size:75%; }
 
 
 /** RESULTS by Country 
@@ -27,97 +27,97 @@ Winner = { width:100%; float:left; text-align:center; background:#green; border-
 .qtr-A1									{ background:#333; }
 .semi-A1								{ background:#333; }
 .final-A1								{ background:#333; }
-.winner-A1								{ background:#333; }
+.winner-A1								{ background:#333; width:100%; }
 
 /** A2 maybe SEN **/
 .qtr-A2									{ background:#333; }
 .semi-A2								{ background:#333; }
 .final-A2								{ background:#333; }
-.winner-A2								{ background:#333; }
+.winner-A2								{ background:#333; width:100%;  }
 
 /** B1 maybe ENG **/
 .qtr-B1									{ background:#333; }
 .semi-B1								{ background:#333; }
 .final-B1								{ background:#333; }
-.winner-B1								{ background:#333; }
+.winner-B1								{ background:#333; width:100%;  }
 
 /** B2 maybe USA **/
 .qtr-B2									{ background:#333; }
 .semi-B2								{ background:#333; }
 .final-B2								{ background:#333; }
-.winner-B2								{ background:#333; }
+.winner-B2								{ background:#333; width:100%;  }
 
 /** C1 maybe ARG **/
 .qtr-C1									{ background:#333; }
 .semi-C1								{ background:#333; }
 .final-C1								{ background:#333; }
-.winner-C1								{ background:#333; }
+.winner-C1								{ background:#333; width:100%;  }
 
 /** C2 maybe MEX **/
 .qtr-C2									{ background:#333; }
 .semi-C2								{ background:#333; }
 .final-C2								{ background:#333; }
-.winner-C2								{ background:#333; }
+.winner-C2								{ background:#333; width:100%;  }
 
 /** D1 maybe FRA **/
 .qtr-D1									{ background:#333; }
 .semi-D1								{ background:#333; }
 .final-D1								{ background:#333; }
-.winner-D1								{ background:#333; }
+.winner-D1								{ background:#333; width:100%;  }
 
 /** D2 maybe DEN **/
 .qtr-D2									{ background:#333; }
 .semi-D2								{ background:#333; }
 .final-D2								{ background:#333; }
-.winner-D2								{ background:#333; }
+.winner-D2								{ background:#333; width:100%;  }
 
 /** E1 maybe DEU **/
 .qtr-E1									{ background:#333; }
 .semi-E1								{ background:#333; }
 .final-E1								{ background:#333; }
-.winner-E1								{ background:#333; }
+.winner-E1								{ background:#333; width:100%;  }
 
 /** E2 maybe ESP **/
 .qtr-E2									{ background:#333; }
 .semi-E2								{ background:#333; }
 .final-E2								{ background:#333; }
-.winner-E2								{ background:#333; }
+.winner-E2								{ background:#333; width:100%;  }
 
 /** F1 maybe BEL **/
 .qtr-F1									{ background:#333; }
 .semi-F1								{ background:#333; }
 .final-F1								{ background:#333; }
-.winner-F1								{ background:#333; }
+.winner-F1								{ background:#333; width:100%;  }
 
 /** F2 maybe CRO **/
 .qtr-F2									{ background:#333; }
 .semi-F2								{ background:#333; }
 .final-F2								{ background:#333; }
-.winner-F2								{ background:#333; }
+.winner-F2								{ background:#333; width:100%;  }
 
 /** G1 maybe BRA **/
 .qtr-G1									{ background:#333; }
 .semi-G1								{ background:#333; }
 .final-G1								{ background:#333; }
-.winner-G1								{ background:#333; }
+.winner-G1								{ background:#333; width:100%;  }
 
 /** G2 maybe CHE **/
 .qtr-G2									{ background:#333; }
 .semi-G2								{ background:#333; }
 .final-G2								{ background:#333; }
-.winner-G2								{ background:#333; }
+.winner-G2								{ background:#333; width:100%;  }
 
 /** H1 maybe POR **/
 .qtr-H1									{ background:#333; }
 .semi-H1								{ background:#333; }
 .final-H1								{ background:#333; }
-.winner-H1								{ background:#333; }
+.winner-H1								{ background:#333; width:100%;  }
 
 /** H2 maybe KOR **/
 .qtr-H2									{ background:#333; }
 .semi-H2								{ background:#333; }
 .final-H2								{ background:#333; }
-.winner-H2								{ background:#333; }
+.winner-H2								{ background:#333; width:100%;  }
 
 
 
