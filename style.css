@@ -43,7 +43,7 @@ Winner = { width:100%; float:left; text-align:center; background:#green; border-
 
 /** B2 maybe USA **/
 .qtr-B2									{ background:#333; }
-.semi-B2								{ background:#333; }
+.semi-B2								{ background:red; text-decoration:line-through; text-decoration-color:white; }
 .final-B2								{ background:#333; }
 .winner-B2								{ background:#333; width:100%;  }
 
