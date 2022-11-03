@@ -44,13 +44,14 @@ Winner = { width:100%; float:left; text-align:center; background:#green; border-
 .winner-B1								{ background:#333; }
 
 /** B2 maybe USA **/
-#usa									{ background:url(flags/usa.jpg) left center no-repeat; background-size:cover; }
+#usa									{ background:url(flags/usa.jpg) center center no-repeat; background-size:cover; }
 .qtr-B2									{ background:#333; }
 .semi-B2								{ background:#333; }
 .final-B2								{ background:#333; }
 .winner-B2								{ background:#333; }
 
 /** C1 maybe ARG **/
+#argentina								{ background:url(flags/argentina.jpg) center center no-repeat; background-size:cover; }
 .qtr-C1									{ background:#333; }
 .semi-C1								{ background:#333; }
 .final-C1								{ background:#333; }
@@ -69,12 +70,14 @@ Winner = { width:100%; float:left; text-align:center; background:#green; border-
 .winner-D1								{ background:#333; }
 
 /** D2 maybe DEN **/
+#denmark								{ background:url(flags/denmark.jpg) center center no-repeat; background-size:cover; }
 .qtr-D2									{ background:#333; }
 .semi-D2								{ background:#333; }
 .final-D2								{ background:#333; }
 .winner-D2								{ background:#333; }
 
 /** E1 maybe DEU **/
+#germany								{ background:url(flags/germany.jpg) center center no-repeat; background-size:cover; }
 .qtr-E1									{ background:#333; }
 .semi-E1								{ background:#333; }
 .final-E1								{ background:#333; }
@@ -93,12 +96,14 @@ Winner = { width:100%; float:left; text-align:center; background:#green; border-
 .winner-F1								{ background:#333; }
 
 /** F2 maybe CRO **/
+#croatia								{ background:url(flags/croatia.jpg) center center no-repeat; background-size:cover; }
 .qtr-F2									{ background:#333; }
 .semi-F2								{ background:#333; }
 .final-F2								{ background:#333; }
 .winner-F2								{ background:#333; }
 
 /** G1 maybe BRA **/
+#brazil									{ background:url(flags/brazil.jpg) center center no-repeat; background-size:cover; }
 .qtr-G1									{ background:#333; }
 .semi-G1								{ background:#333; }
 .final-G1								{ background:#333; }
@@ -117,6 +122,7 @@ Winner = { width:100%; float:left; text-align:center; background:#green; border-
 .winner-H1								{ background:#333; }
 
 /** H2 maybe KOR **/
+#korea									{ background:url(flags/korea.jpg) center center no-repeat; background-size:cover; }
 .qtr-H2									{ background:#333; }
 .semi-H2								{ background:#333; }
 .final-H2								{ background:#333; }
