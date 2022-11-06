@@ -16,134 +16,140 @@ small 										{ font-size:100%; text-align:right; }
 #team 							{ width:46%; min-height:25px; float:left; text-align:center; border-radius:10px; padding:1em 0; margin:0em 2%;}
 .time							{ width:96%; display:block; background:#222; text-align:center; color:#CCC; font-size:75%; border-radius:10px; padding:1em 0; margin:1em auto; }
 
-#team-qtr 						{ width:94%; min-height:65px; float:left; text-align:center; border-radius:10px; padding:1em 0; margin:0em 3%; }
+#team-adv 						{ width:90%; max-width:173px; min-height:65px; max-height:97px; text-align:center; border-radius:10px; padding:1em 0; margin:0em auto; }
 .time-qtr						{ width:100%; display:block; background:#222; text-align:center; color:#CCC; font-size:75%; border-radius:10px; padding:1em 0; margin:1em auto; }
+.time-semi						{ width:100%;  max-width:48em; display:block; background:#222; text-align:center; color:#CCC; font-size:75%; border-radius:10px; padding:1em 0; margin:1em auto; }
+#champion 						{ width:100%; max-width:300px; min-height:150px; text-align:center; border-radius:10px; padding:1em 0; margin:3em auto; }
 
-#team-semi 						{ width:94%; min-height:120px; float:left; text-align:center; border-radius:10px; padding:1em 0; margin:0em 3%; }
-.time-semi						{ width:100%; display:block; background:#222; text-align:center; color:#CCC; font-size:75%; border-radius:10px; padding:1em 0; margin:1em auto; }
 
-.x								{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
 
-/** RESULTS by Country 
 
-Base = { background:#333; }
-Advance = { background:green; }
-Eliminated = { background:red; text-decoration:line-through; text-decoration-color:white; }
-Winner = { width:100%; float:left; text-align:center; background:#green; border-radius:10px; }
+
+
+/** 
+
+RESULTS by Country 
+When a country is eliminated, add to all future classes:
+
+	opacity:.5; -webkit-filter: grayscale(100%);
 
 **/
 
+
+
+
+
 /** A1 maybe NED **/
 .A1								{ background:url(flags/a-netherlands.jpg) center center no-repeat; background-size:cover; }
-.A1-qtr							{ background:url(flags/a-netherlands.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.A1-semi						{ background:url(flags/a-netherlands.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.A1-final						{ background:url(flags/a-netherlands.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.A1-winner						{ background:url(flags/a-netherlands.jpg) center center no-repeat; background-size:cover; opacity:.5; }
+.A1-qtr							{ background:url(flags/a-netherlands.jpg) center center no-repeat; background-size:cover; }
+.A1-semi						{ background:url(flags/a-netherlands.jpg) center center no-repeat; background-size:cover; }
+.A1-final						{ background:url(flags/a-netherlands.jpg) center center no-repeat; background-size:cover; }
+.A1-winner						{ background:url(flags/a-netherlands.jpg) center center no-repeat; background-size:cover; }
 
 /** A2 maybe SEN **/
 .A2								{ background:url(flags/a-senegal.jpg) center center no-repeat; background-size:cover; }
-.A2-qtr							{ background:url(flags/a-senegal.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.A2-semi						{ background:url(flags/a-senegal.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.A2-final						{ background:url(flags/a-senegal.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.A2-winner						{ background:url(flags/a-senegal.jpg) center center no-repeat; background-size:cover; opacity:.5; }
+.A2-qtr							{ background:url(flags/a-senegal.jpg) center center no-repeat; background-size:cover; }
+.A2-semi						{ background:url(flags/a-senegal.jpg) center center no-repeat; background-size:cover; }
+.A2-final						{ background:url(flags/a-senegal.jpg) center center no-repeat; background-size:cover; }
+.A2-winner						{ background:url(flags/a-senegal.jpg) center center no-repeat; background-size:cover; }
 
 /** B1 maybe ENG **/
 .B1								{ background:url(flags/b-england.jpg) center center no-repeat; background-size:cover; }
-.B1-qtr							{ background:url(flags/b-england.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.B1-semi						{ background:url(flags/b-england.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.B1-final						{ background:url(flags/b-england.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.B1-winner						{ background:url(flags/b-england.jpg) center center no-repeat; background-size:cover; opacity:.5; }
+.B1-qtr							{ background:url(flags/b-england.jpg) center center no-repeat; background-size:cover; }
+.B1-semi						{ background:url(flags/b-england.jpg) center center no-repeat; background-size:cover; }
+.B1-final						{ background:url(flags/b-england.jpg) center center no-repeat; background-size:cover; }
+.B1-winner						{ background:url(flags/b-england.jpg) center center no-repeat; background-size:cover; }
 
 /** B2 maybe USA **/
 .B2								{ background:url(flags/b-usa.jpg) center center no-repeat; background-size:cover; }
-.B2-qtr							{ background:url(flags/b-usa.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.B2-semi						{ background:url(flags/b-usa.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.B2-final						{ background:url(flags/b-usa.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.B2-winner						{ background:url(flags/b-usa.jpg) center center no-repeat; background-size:cover; opacity:.5; }
+.B2-qtr							{ background:url(flags/b-usa.jpg) center center no-repeat; background-size:cover; }
+.B2-semi						{ background:url(flags/b-usa.jpg) center center no-repeat; background-size:cover; }
+.B2-final						{ background:url(flags/b-usa.jpg) center center no-repeat; background-size:cover; }
+.B2-winner						{ background:url(flags/b-usa.jpg) center center no-repeat; background-size:cover; }
 
 /** C1 maybe ARG **/
 .C1								{ background:url(flags/c-argentina.jpg) center center no-repeat; background-size:cover; }
-.C1-qtr							{ background:url(flags/c-argentina.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.C1-semi						{ background:url(flags/c-argentina.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.C1-final						{ background:url(flags/c-argentina.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.C1-winner						{ background:url(flags/c-argentina.jpg) center center no-repeat; background-size:cover; opacity:.5; }
+.C1-qtr							{ background:url(flags/c-argentina.jpg) center center no-repeat; background-size:cover; }
+.C1-semi						{ background:url(flags/c-argentina.jpg) center center no-repeat; background-size:cover; }
+.C1-final						{ background:url(flags/c-argentina.jpg) center center no-repeat; background-size:cover; }
+.C1-winner						{ background:url(flags/c-argentina.jpg) center center no-repeat; background-size:cover; }
 
 /** C2 maybe MEX **/
 .C2								{ background:url(flags/c-mexico.jpg) center center no-repeat; background-size:cover; }
-.C2-qtr							{ background:url(flags/c-mexico.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.C2-semi						{ background:url(flags/c-mexico.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.C2-final						{ background:url(flags/c-mexico.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.C2-winner						{ background:url(flags/c-mexico.jpg) center center no-repeat; background-size:cover; opacity:.5; }
+.C2-qtr							{ background:url(flags/c-mexico.jpg) center center no-repeat; background-size:cover; }
+.C2-semi						{ background:url(flags/c-mexico.jpg) center center no-repeat; background-size:cover; }
+.C2-final						{ background:url(flags/c-mexico.jpg) center center no-repeat; background-size:cover; }
+.C2-winner						{ background:url(flags/c-mexico.jpg) center center no-repeat; background-size:cover; }
 
 /** D1 maybe FRA **/
 .D1								{ background:url(flags/d-france.jpg) center center no-repeat; background-size:cover; }
-.D1-qtr							{ background:url(flags/d-france.jpg) center center no-repeat; background-size:cover; opacity:.5 }
-.D1-semi						{ background:url(flags/d-france.jpg) center center no-repeat; background-size:cover; opacity:.5 }
-.D1-final						{ background:url(flags/d-france.jpg) center center no-repeat; background-size:cover; opacity:.5 }
-.D1-winner						{ background:url(flags/d-france.jpg) center center no-repeat; background-size:cover; opacity:.5 }
+.D1-qtr							{ background:url(flags/d-france.jpg) center center no-repeat; background-size:cover; }
+.D1-semi						{ background:url(flags/d-france.jpg) center center no-repeat; background-size:cover; }
+.D1-final						{ background:url(flags/d-france.jpg) center center no-repeat; background-size:cover; }
+.D1-winner						{ background:url(flags/d-france.jpg) center center no-repeat; background-size:cover; }
 
 /** D2 maybe DEN **/
 .D2								{ background:url(flags/d-denmark.jpg) center center no-repeat; background-size:cover; }
-.D2-qtr							{ background:url(flags/d-denmark.jpg) center center no-repeat; background-size:cover; opacity:.5 }
-.D2-semi						{ background:url(flags/d-denmark.jpg) center center no-repeat; background-size:cover; opacity:.5 }
-.D2-final						{ background:url(flags/d-denmark.jpg) center center no-repeat; background-size:cover; opacity:.5 }
-.D2-winner						{ background:url(flags/d-denmark.jpg) center center no-repeat; background-size:cover; opacity:.5 }
+.D2-qtr							{ background:url(flags/d-denmark.jpg) center center no-repeat; background-size:cover; }
+.D2-semi						{ background:url(flags/d-denmark.jpg) center center no-repeat; background-size:cover; }
+.D2-final						{ background:url(flags/d-denmark.jpg) center center no-repeat; background-size:cover; }
+.D2-winner						{ background:url(flags/d-denmark.jpg) center center no-repeat; background-size:cover; }
 
 /** E1 maybe DEU **/
 .E1								{ background:url(flags/e-germany.jpg) center center no-repeat; background-size:cover; }
-.E1-qtr							{ background:url(flags/e-germany.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.E1-semi						{ background:url(flags/e-germany.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.E1-final						{ background:url(flags/e-germany.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.E1-winner						{ background:url(flags/e-germany.jpg) center center no-repeat; background-size:cover; opacity:.5; }
+.E1-qtr							{ background:url(flags/e-germany.jpg) center center no-repeat; background-size:cover; }
+.E1-semi						{ background:url(flags/e-germany.jpg) center center no-repeat; background-size:cover; }
+.E1-final						{ background:url(flags/e-germany.jpg) center center no-repeat; background-size:cover; }
+.E1-winner						{ background:url(flags/e-germany.jpg) center center no-repeat; background-size:cover; }
 
 /** E2 maybe ESP **/
 .E2								{ background:url(flags/e-spain.jpg) center center no-repeat; background-size:cover; }
-.E2-qtr							{ background:url(flags/e-spain.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.E2-semi						{ background:url(flags/e-spain.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.E2-final						{ background:url(flags/e-spain.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.E2-winner						{ background:url(flags/e-spain.jpg) center center no-repeat; background-size:cover; opacity:.5; }
+.E2-qtr							{ background:url(flags/e-spain.jpg) center center no-repeat; background-size:cover; }
+.E2-semi						{ background:url(flags/e-spain.jpg) center center no-repeat; background-size:cover; }
+.E2-final						{ background:url(flags/e-spain.jpg) center center no-repeat; background-size:cover; }
+.E2-winner						{ background:url(flags/e-spain.jpg) center center no-repeat; background-size:cover; }
 
 /** F1 maybe BEL **/
 .F1								{ background:url(flags/f-belgium.jpg) center center no-repeat; background-size:cover; }
-.F1-qtr							{ background:url(flags/f-belgium.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.F1-semi						{ background:url(flags/f-belgium.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.F1-final						{ background:url(flags/f-belgium.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.F1-winner						{ background:url(flags/f-belgium.jpg) center center no-repeat; background-size:cover; opacity:.5; }
+.F1-qtr							{ background:url(flags/f-belgium.jpg) center center no-repeat; background-size:cover; }
+.F1-semi						{ background:url(flags/f-belgium.jpg) center center no-repeat; background-size:cover; }
+.F1-final						{ background:url(flags/f-belgium.jpg) center center no-repeat; background-size:cover; }
+.F1-winner						{ background:url(flags/f-belgium.jpg) center center no-repeat; background-size:cover; }
 
 /** F2 maybe CRO **/
 .F2								{ background:url(flags/f-croatia.jpg) center center no-repeat; background-size:cover; }
-.F2-qtr							{ background:url(flags/f-croatia.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.F2-semi						{ background:url(flags/f-croatia.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.F2-final						{ background:url(flags/f-croatia.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.F2-winner						{ background:url(flags/f-croatia.jpg) center center no-repeat; background-size:cover; opacity:.5; }
+.F2-qtr							{ background:url(flags/f-croatia.jpg) center center no-repeat; background-size:cover; }
+.F2-semi						{ background:url(flags/f-croatia.jpg) center center no-repeat; background-size:cover; }
+.F2-final						{ background:url(flags/f-croatia.jpg) center center no-repeat; background-size:cover; }
+.F2-winner						{ background:url(flags/f-croatia.jpg) center center no-repeat; background-size:cover; }
 
 /** G1 maybe BRA **/
 .G1								{ background:url(flags/g-brazil.jpg) center center no-repeat; background-size:cover; }
-.G1-qtr							{ background:url(flags/g-brazil.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.G1-semi						{ background:url(flags/g-brazil.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.G1-final						{ background:url(flags/g-brazil.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.G1-winner						{ background:url(flags/g-brazil.jpg) center center no-repeat; background-size:cover; opacity:.5; }
+.G1-qtr							{ background:url(flags/g-brazil.jpg) center center no-repeat; background-size:cover; }
+.G1-semi						{ background:url(flags/g-brazil.jpg) center center no-repeat; background-size:cover; }
+.G1-final						{ background:url(flags/g-brazil.jpg) center center no-repeat; background-size:cover; }
+.G1-winner						{ background:url(flags/g-brazil.jpg) center center no-repeat; background-size:cover; }
 
 /** G2 maybe CHE **/
 .G2								{ background:url(flags/g-switzerland.jpg) center center no-repeat; background-size:cover; }
-.G2-qtr							{ background:url(flags/g-switzerland.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.G2-semi						{ background:url(flags/g-switzerland.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.G2-final						{ background:url(flags/g-switzerland.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.G2-winner						{ background:url(flags/g-switzerland.jpg) center center no-repeat; background-size:cover; opacity:.5; }
+.G2-qtr							{ background:url(flags/g-switzerland.jpg) center center no-repeat; background-size:cover; }
+.G2-semi						{ background:url(flags/g-switzerland.jpg) center center no-repeat; background-size:cover; }
+.G2-final						{ background:url(flags/g-switzerland.jpg) center center no-repeat; background-size:cover; }
+.G2-winner						{ background:url(flags/g-switzerland.jpg) center center no-repeat; background-size:cover; }
 
 /** H1 maybe POR **/
 .H1								{ background:url(flags/h-portugal.jpg) center center no-repeat; background-size:cover; }
-.H1-qtr							{ background:url(flags/h-portugal.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.H1-semi						{ background:url(flags/h-portugal.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.H1-final						{ background:url(flags/h-portugal.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.H1-winner						{ background:url(flags/h-portugal.jpg) center center no-repeat; background-size:cover; opacity:.5; }
+.H1-qtr							{ background:url(flags/h-portugal.jpg) center center no-repeat; background-size:cover; }
+.H1-semi						{ background:url(flags/h-portugal.jpg) center center no-repeat; background-size:cover; }
+.H1-final						{ background:url(flags/h-portugal.jpg) center center no-repeat; background-size:cover; }
+.H1-winner						{ background:url(flags/h-portugal.jpg) center center no-repeat; background-size:cover; }
 
 /** H2 maybe KOR **/
 .H2								{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; }
-.H2-qtr							{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.H2-semi						{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.H2-final						{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; opacity:.5; }
-.H2-winner						{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; opacity:.5; }
+.H2-qtr							{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; }
+.H2-semi						{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; }
+.H2-final						{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; }
+.H2-winner						{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; }
 
 
 
