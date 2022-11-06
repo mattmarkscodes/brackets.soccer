@@ -12,7 +12,7 @@ small 										{ font-size:100%; text-align:right; }
 .country									{ width:100%; display:block; margin-top:.5em; color:#FFF; text-decoration:none; font-size:80%; }
 .col-xs-3	{ padding:0; }
 
-
+#tname 							{ color:#CCC; width:46%; float:left; text-align:center; margin:.5em 2%;}
 #team 							{ width:46%; min-height:25px; float:left; text-align:center; border-radius:10px; padding:1em 0; margin:0em 2%;}
 .time							{ width:96%; display:block; background:#222; text-align:center; color:#CCC; font-size:75%; border-radius:10px; padding:1em 0; margin:1em auto; }
 
@@ -145,11 +145,11 @@ When a country is eliminated, add to all future classes:
 .H1-winner						{ background:url(flags/h-portugal.jpg) center center no-repeat; background-size:cover; }
 
 /** H2 maybe KOR **/
-.H2								{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; }
-.H2-qtr							{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; }
-.H2-semi						{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; }
-.H2-final						{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; }
-.H2-winner						{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; }
+.H2								{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; opacity:.2; -webkit-filter: grayscale(100%); }
+.H2-qtr							{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; opacity:.2; -webkit-filter: grayscale(100%); }
+.H2-semi						{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; opacity:.2; -webkit-filter: grayscale(100%); }
+.H2-final						{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; opacity:.2; -webkit-filter: grayscale(100%); }
+.H2-winner						{ background:url(flags/h-korea.jpg) center center no-repeat; background-size:cover; opacity:.2; -webkit-filter: grayscale(100%); }
 
 
 
