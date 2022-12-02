@@ -25,7 +25,7 @@ header							{ color:#FFF; text-align:center; }
 
 /** X **/
 .x-qtr							{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
-.x-semi						{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
+.x-semi							{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
 .x-final						{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
 .x-winner						{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
 
@@ -47,116 +47,116 @@ When a country is eliminated, add to all future classes:
 
 
 /** NETHERLANDS **/
-.ned							{ background:url(flags/NED.jpg) center center no-repeat; background-size:cover; }
-.ned-qtr						{ background:url(flags/NED.jpg) center center no-repeat; background-size:cover; }
-.ned-semi						{ background:url(flags/NED.jpg) center center no-repeat; background-size:cover; }
-.ned-final						{ background:url(flags/NED.jpg) center center no-repeat; background-size:cover; }
-.ned-winner						{ background:url(flags/NED.jpg) center center no-repeat; background-size:cover; }
+.ned							{ background:url(flags/NED.jpg) center center no-repeat; background-size:cover;  }
+.ned-qtr						{ background:url(flags/NED.jpg) center center no-repeat; background-size:cover;  }
+.ned-semi						{ background:url(flags/NED.jpg) center center no-repeat; background-size:cover;  }
+.ned-final						{ background:url(flags/NED.jpg) center center no-repeat; background-size:cover;  }
+.ned-winner						{ background:url(flags/NED.jpg) center center no-repeat; background-size:cover;  }
 
 /** SENEGAL **/
-.sen							{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover; }
-.sen-qtr						{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover; }
-.sen-semi						{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover; }
-.sen-final						{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover; }
-.sen-winner						{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover; }
+.sen							{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover;  }
+.sen-qtr						{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover;  }
+.sen-semi						{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover;  }
+.sen-final						{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover;  }
+.sen-winner						{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover;  }
 
 /** ENGLAND **/
-.eng							{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover; }
-.eng-qtr						{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover; }
-.eng-semi						{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover; }
-.eng-final						{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover; }
-.eng-winner						{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover; }
+.eng							{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover;  }
+.eng-qtr						{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover;  }
+.eng-semi						{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover;  }
+.eng-final						{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover;  }
+.eng-winner						{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover;  }
 
 /** USA **/
-.usa							{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover; }
-.usa-qtr						{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover; }
-.usa-semi						{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover; }
-.usa-final						{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover; }
-.usa-winner						{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover; }
+.usa							{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover;  }
+.usa-qtr						{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover;  }
+.usa-semi						{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover;  }
+.usa-final						{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover;  }
+.usa-winner						{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover;  }
 
 /** ARGENTINA **/
-.arg							{ background:url(flags/ARG.jpg) center center no-repeat; background-size:cover; }
-.arg-qtr						{ background:url(flags/ARG.jpg) center center no-repeat; background-size:cover; }
-.arg-semi						{ background:url(flags/ARG.jpg) center center no-repeat; background-size:cover; }
-.arg-final						{ background:url(flags/ARG.jpg) center center no-repeat; background-size:cover; }
-.arg-winner						{ background:url(flags/ARG.jpg) center center no-repeat; background-size:cover; }
+.arg							{ background:url(flags/ARG.jpg) center center no-repeat; background-size:cover;  }
+.arg-qtr						{ background:url(flags/ARG.jpg) center center no-repeat; background-size:cover;  }
+.arg-semi						{ background:url(flags/ARG.jpg) center center no-repeat; background-size:cover;  }
+.arg-final						{ background:url(flags/ARG.jpg) center center no-repeat; background-size:cover;  }
+.arg-winner						{ background:url(flags/ARG.jpg) center center no-repeat; background-size:cover;  }
 
 /** POLAND **/
-.pol							{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover; }
-.pol-qtr						{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover; }
-.pol-semi						{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover; }
-.pol-final						{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover; }
-.pol-winner						{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover; }
+.pol							{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover;  }
+.pol-qtr						{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover;  }
+.pol-semi						{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover;  }
+.pol-final						{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover;  }
+.pol-winner						{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover;  }
 
 /** FRANCE **/
-.fra							{ background:url(flags/FRA.jpg) center center no-repeat; background-size:cover; }
-.fra-qtr						{ background:url(flags/FRA.jpg) center center no-repeat; background-size:cover; }
-.fra-semi						{ background:url(flags/FRA.jpg) center center no-repeat; background-size:cover; }
-.fra-final						{ background:url(flags/FRA.jpg) center center no-repeat; background-size:cover; }
-.fra-winner						{ background:url(flags/FRA.jpg) center center no-repeat; background-size:cover; }
+.fra							{ background:url(flags/FRA.jpg) center center no-repeat; background-size:cover;  }
+.fra-qtr						{ background:url(flags/FRA.jpg) center center no-repeat; background-size:cover;  }
+.fra-semi						{ background:url(flags/FRA.jpg) center center no-repeat; background-size:cover;  }
+.fra-final						{ background:url(flags/FRA.jpg) center center no-repeat; background-size:cover;  }
+.fra-winner						{ background:url(flags/FRA.jpg) center center no-repeat; background-size:cover;  }
 
 /** AUSTRALIA **/
-.aus							{ background:url(flags/AUS.jpg) center center no-repeat; background-size:cover; }
-.aus-qtr						{ background:url(flags/AUS.jpg) center center no-repeat; background-size:cover; }
-.aus-semi						{ background:url(flags/AUS.jpg) center center no-repeat; background-size:cover; }
-.aus-final						{ background:url(flags/AUS.jpg) center center no-repeat; background-size:cover; }
-.aus-winner						{ background:url(flags/AUS.jpg) center center no-repeat; background-size:cover; }
+.aus							{ background:url(flags/AUS.jpg) center center no-repeat; background-size:cover;  }
+.aus-qtr						{ background:url(flags/AUS.jpg) center center no-repeat; background-size:cover;  }
+.aus-semi						{ background:url(flags/AUS.jpg) center center no-repeat; background-size:cover;  }
+.aus-final						{ background:url(flags/AUS.jpg) center center no-repeat; background-size:cover;  }
+.aus-winner						{ background:url(flags/AUS.jpg) center center no-repeat; background-size:cover;  }
 
 /** JAPAN **/
-.jpn							{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover; }
-.jpn-qtr						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover; }
-.jpn-semi						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover; }
-.jpn-final						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover; }
-.jpn-winner						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover; }
+.jpn							{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover;  }
+.jpn-qtr						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover;  }
+.jpn-semi						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover;  }
+.jpn-final						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover;  }
+.jpn-winner						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover;  }
 
 /** SPAIN **/
-.esp							{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover; }
-.esp-qtr						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover; }
-.esp-semi						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover; }
-.esp-final						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover; }
-.esp-winner						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover; }
+.esp							{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover;  }
+.esp-qtr						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover;  }
+.esp-semi						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover;  }
+.esp-final						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover;  }
+.esp-winner						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover;  }
 
 /** MOROCCO **/
-.mar							{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover; }
-.mar-qtr						{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover; }
-.mar-semi						{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover; }
-.mar-final						{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover; }
-.mar-winner						{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover; }
+.mar							{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover;  }
+.mar-qtr						{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover;  }
+.mar-semi						{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover;  }
+.mar-final						{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover;  }
+.mar-winner						{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover;  }
 
 /** CROATIA **/
-.cro							{ background:url(flags/CRO.jpg) center center no-repeat; background-size:cover; }
-.cro-qtr						{ background:url(flags/CRO.jpg) center center no-repeat; background-size:cover; }
-.cro-semi						{ background:url(flags/CRO.jpg) center center no-repeat; background-size:cover; }
-.cro-final						{ background:url(flags/CRO.jpg) center center no-repeat; background-size:cover; }
-.cro-winner						{ background:url(flags/CRO.jpg) center center no-repeat; background-size:cover; }
+.cro							{ background:url(flags/CRO.jpg) center center no-repeat; background-size:cover;  }
+.cro-qtr						{ background:url(flags/CRO.jpg) center center no-repeat; background-size:cover;  }
+.cro-semi						{ background:url(flags/CRO.jpg) center center no-repeat; background-size:cover;  }
+.cro-final						{ background:url(flags/CRO.jpg) center center no-repeat; background-size:cover;  }
+.cro-winner						{ background:url(flags/CRO.jpg) center center no-repeat; background-size:cover;  }
 
 /** BRAZIL **/
-.bra							{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover; }
-.bra-qtr						{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover; }
-.bra-semi						{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover; }
-.bra-final						{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover; }
-.bra-winner						{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover; }
+.bra							{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover;  }
+.bra-qtr						{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover;  }
+.bra-semi						{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover;  }
+.bra-final						{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover;  }
+.bra-winner						{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover;  }
 
-/** G2 maybe CHE **/
-.G2								{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
-.G2-qtr							{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
-.G2-semi						{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
-.G2-final						{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
-.G2-winner						{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
+/** SWITZERLAND **/
+.sui							{ background:url(flags/SUI.jpg) center center no-repeat; background-size:cover;  }
+.sui-qtr						{ background:url(flags/SUI.jpg) center center no-repeat; background-size:cover;  }
+.sui-semi						{ background:url(flags/SUI.jpg) center center no-repeat; background-size:cover;  }
+.sui-final						{ background:url(flags/SUI.jpg) center center no-repeat; background-size:cover;  }
+.sui-winner						{ background:url(flags/SUI.jpg) center center no-repeat; background-size:cover;  }
 
 /** PORTUGAL **/
-.por							{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover; }
-.por-qtr						{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover; }
-.por-semi						{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover; }
-.por-final						{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover; }
-.por-winner						{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover; }
+.por							{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover;  }
+.por-qtr						{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover;  }
+.por-semi						{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover;  }
+.por-final						{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover;  }
+.por-winner						{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover;  }
 
-/** H2 maybe KOR **/
-.H2								{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
-.H2-qtr							{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
-.H2-semi						{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
-.H2-final						{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
-.H2-winner						{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
+/** SOUTH KOREA **/
+.kor							{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover;  }
+.kor-qtr						{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover;  }
+.kor-semi						{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover;  }
+.kor-final						{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover;  }
+.kor-winner						{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover;  }
 
 
 
