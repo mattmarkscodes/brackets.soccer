@@ -102,19 +102,19 @@ When a country is eliminated, add to all future classes:
 .aus-final						{ background:url(flags/AUS.jpg) center center no-repeat; background-size:cover; }
 .aus-winner						{ background:url(flags/AUS.jpg) center center no-repeat; background-size:cover; }
 
-/** E1 maybe DEU **/
-.E1								{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
-.E1-qtr							{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
-.E1-semi						{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
-.E1-final						{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
-.E1-winner						{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
+/** JAPAN **/
+.jpn							{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover; }
+.jpn-qtr						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover; }
+.jpn-semi						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover; }
+.jpn-final						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover; }
+.jpn-winner						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover; }
 
-/** E2 maybe ESP **/
-.E2								{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
-.E2-qtr							{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
-.E2-semi						{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
-.E2-final						{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
-.E2-winner						{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
+/** SPAIN **/
+.esp							{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover; }
+.esp-qtr						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover; }
+.esp-semi						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover; }
+.esp-final						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover; }
+.esp-winner						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover; }
 
 /** MOROCCO **/
 .mar							{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover; }
