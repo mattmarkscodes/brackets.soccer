@@ -68,11 +68,11 @@ When a country is eliminated, add to all future classes:
 .eng-winner						{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover;  }
 
 /** USA **/
-.usa							{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover;  }
-.usa-qtr						{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover;  }
-.usa-semi						{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover;  }
-.usa-final						{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover;  }
-.usa-winner						{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover;  }
+.usa							{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover; opacity:.2; -webkit-filter: grayscale(100%); }
+.usa-qtr						{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover; opacity:.2; -webkit-filter: grayscale(100%); }
+.usa-semi						{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover; opacity:.2; -webkit-filter: grayscale(100%); }
+.usa-final						{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover; opacity:.2; -webkit-filter: grayscale(100%); }
+.usa-winner						{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover; opacity:.2; -webkit-filter: grayscale(100%); }
 
 /** ARGENTINA **/
 .arg							{ background:url(flags/ARG.jpg) center center no-repeat; background-size:cover;  }
