@@ -57,10 +57,10 @@ When a country is eliminated, add to all future classes:
 
 /** SENEGAL **/
 .sen							{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover;  }
-.sen-qtr						{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover;  }
-.sen-semi						{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover;  }
-.sen-final						{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover;  }
-.sen-winner						{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover;  }
+.sen-qtr						{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.sen-semi						{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.sen-final						{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.sen-winner						{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
 
 /** ENGLAND **/
 .eng							{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover;  }
