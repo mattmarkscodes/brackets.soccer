@@ -83,10 +83,10 @@ When a country is eliminated, add to all future classes:
 
 /** POLAND **/
 .pol							{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover;  }
-.pol-qtr						{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover;  }
-.pol-semi						{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover;  }
-.pol-final						{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover;  }
-.pol-winner						{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover;  }
+.pol-qtr						{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.pol-semi						{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.pol-final						{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.pol-winner						{ background:url(flags/POL.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
 
 /** FRANCE **/
 .fra							{ background:url(flags/FRA.jpg) center center no-repeat; background-size:cover;  }
