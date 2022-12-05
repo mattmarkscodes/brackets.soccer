@@ -106,10 +106,10 @@ When a country is eliminated, add to all future classes:
 
 /** JAPAN **/
 .jpn							{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover;  }
-.jpn-qtr						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover;  }
-.jpn-semi						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover;  }
-.jpn-final						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover;  }
-.jpn-winner						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover;  }
+.jpn-qtr						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.jpn-semi						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.jpn-final						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.jpn-winner						{ background:url(flags/JPN.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
 
 /** SPAIN **/
 .esp							{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover;  }
