@@ -154,7 +154,7 @@ When a country is eliminated, add to all future classes:
 .por-winner						{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover;  }
 
 /** SOUTH KOREA **/
-.kor							{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.kor							{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover;  }
 .kor-qtr						{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
 .kor-semi						{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
 .kor-final						{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
