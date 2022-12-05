@@ -24,7 +24,7 @@ header							{ color:#FFF; text-align:center; }
 .time-qtr						{ width:100%; display:block; background:#222; text-align:center; color:#CCC; font-size:75%; border-radius:10px; padding:1em 0; margin:1em auto; }
 .time-semi						{ width:100%;  max-width:48em; display:block; background:#222; text-align:center; color:#CCC; font-size:75%; border-radius:10px; padding:1em 0; margin:1em auto; }
 #winner 						{ width:100%; max-width:300px; min-height:150px; text-align:center; border-radius:10px; padding:1em 0; margin:3em auto; }
-
+.wrong							{ background:#ff644e; color:#000; }
 /** X **/
 .x-qtr							{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
 .x-semi							{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
@@ -154,11 +154,11 @@ When a country is eliminated, add to all future classes:
 .por-winner						{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover;  }
 
 /** SOUTH KOREA **/
-.kor							{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover;  }
-.kor-qtr						{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover;  }
-.kor-semi						{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover;  }
-.kor-final						{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover;  }
-.kor-winner						{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover;  }
+.kor							{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.kor-qtr						{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.kor-semi						{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.kor-final						{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.kor-winner						{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
 
 
 
