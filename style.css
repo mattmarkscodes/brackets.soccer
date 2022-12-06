@@ -141,10 +141,10 @@ When a country is eliminated, add to all future classes:
 
 /** SWITZERLAND **/
 .sui							{ background:url(flags/SUI.jpg) center center no-repeat; background-size:cover;  }
-.sui-qtr						{ background:url(flags/SUI.jpg) center center no-repeat; background-size:cover;  }
-.sui-semi						{ background:url(flags/SUI.jpg) center center no-repeat; background-size:cover;  }
-.sui-final						{ background:url(flags/SUI.jpg) center center no-repeat; background-size:cover;  }
-.sui-winner						{ background:url(flags/SUI.jpg) center center no-repeat; background-size:cover;  }
+.sui-qtr						{ background:url(flags/SUI.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.sui-semi						{ background:url(flags/SUI.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.sui-final						{ background:url(flags/SUI.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.sui-winner						{ background:url(flags/SUI.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
 
 /** PORTUGAL **/
 .por							{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover;  }
