@@ -113,10 +113,10 @@ When a country is eliminated, add to all future classes:
 
 /** SPAIN **/
 .esp							{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover;  }
-.esp-qtr						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover;  }
-.esp-semi						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover;  }
-.esp-final						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover;  }
-.esp-winner						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover;  }
+.esp-qtr						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.esp-semi						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.esp-final						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.esp-winner						{ background:url(flags/ESP.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
 
 /** MOROCCO **/
 .mar							{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover;  }
