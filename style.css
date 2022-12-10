@@ -68,9 +68,9 @@ When a country is eliminated, add to all future classes:
 /** ENGLAND **/
 .eng							{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover;  }
 .eng-qtr						{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover;  }
-.eng-semi						{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover;  }
-.eng-final						{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover;  }
-.eng-winner						{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover;  }
+.eng-semi						{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.eng-final						{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.eng-winner						{ background:url(flags/ENG.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
 
 /** USA **/
 .usa							{ background:url(flags/USA.jpg) center center no-repeat; background-size:cover;  }
