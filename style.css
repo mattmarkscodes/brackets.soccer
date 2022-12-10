@@ -17,14 +17,17 @@ header							{ color:#FFF; text-align:center; }
 #tname 							{ color:#CCC; width:46%; float:left; text-align:center; margin:.5em 2%;}
 #team 							{ width:46%; min-height:25px; float:left; text-align:center; border-radius:10px; padding:1em 0; margin:0em 2%; box-sizing:content-box;}
 .time							{ width:96%; display:block; background:#222; text-align:center; color:#CCC; font-size:75%; border-radius:10px; padding:1em 0; margin:1em auto; }
-.correct						{ background:#88fa4f; color:#000; }
-.wrong							{ background:#ff644e; color:#000; }
+
 
 #team-adv 						{ width:90%; max-width:173px; min-height:65px; max-height:97px; text-align:center; border-radius:10px; padding:1em 0; margin:0em auto; box-sizing:content-box; }
 .time-qtr						{ width:100%; display:block; background:#222; text-align:center; color:#CCC; font-size:75%; border-radius:10px; padding:1em 0; margin:1em auto; }
 .time-semi						{ width:100%;  max-width:48em; display:block; background:#222; text-align:center; color:#CCC; font-size:75%; border-radius:10px; padding:1em 0; margin:1em auto; }
 #winner 						{ width:100%; max-width:300px; min-height:150px; text-align:center; border-radius:10px; padding:1em 0; margin:3em auto; }
+
+.correct						{ background:#88fa4f; color:#000; }
 .wrong							{ background:#ff644e; color:#000; }
+
+
 /** X **/
 .x-qtr							{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
 .x-semi							{ background:url(flags/x.jpg) center center no-repeat; background-size:cover; }
@@ -51,9 +54,9 @@ When a country is eliminated, add to all future classes:
 /** NETHERLANDS **/
 .ned							{ background:url(flags/NED.jpg) center center no-repeat; background-size:cover;  }
 .ned-qtr						{ background:url(flags/NED.jpg) center center no-repeat; background-size:cover;  }
-.ned-semi						{ background:url(flags/NED.jpg) center center no-repeat; background-size:cover;  }
-.ned-final						{ background:url(flags/NED.jpg) center center no-repeat; background-size:cover;  }
-.ned-winner						{ background:url(flags/NED.jpg) center center no-repeat; background-size:cover;  }
+.ned-semi						{ background:url(flags/NED.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.ned-final						{ background:url(flags/NED.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.ned-winner						{ background:url(flags/NED.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
 
 /** SENEGAL **/
 .sen							{ background:url(flags/SEN.jpg) center center no-repeat; background-size:cover;  }
@@ -135,9 +138,9 @@ When a country is eliminated, add to all future classes:
 /** BRAZIL **/
 .bra							{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover;  }
 .bra-qtr						{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover;  }
-.bra-semi						{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover;  }
-.bra-final						{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover;  }
-.bra-winner						{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover;  }
+.bra-semi						{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.bra-final						{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.bra-winner						{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
 
 /** SWITZERLAND **/
 .sui							{ background:url(flags/SUI.jpg) center center no-repeat; background-size:cover;  }
@@ -159,10 +162,3 @@ When a country is eliminated, add to all future classes:
 .kor-semi						{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
 .kor-final						{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
 .kor-winner						{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
-
-
-
-
-
-
-
