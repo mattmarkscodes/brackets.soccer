@@ -152,9 +152,9 @@ When a country is eliminated, add to all future classes:
 /** PORTUGAL **/
 .por							{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover;  }
 .por-qtr						{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover;  }
-.por-semi						{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover;  }
-.por-final						{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover;  }
-.por-winner						{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover;  }
+.por-semi						{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.por-final						{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.por-winner						{ background:url(flags/POR.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
 
 /** SOUTH KOREA **/
 .kor							{ background:url(flags/KOR.jpg) center center no-repeat; background-size:cover;  }
