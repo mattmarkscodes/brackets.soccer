@@ -132,8 +132,8 @@ When a country is eliminated, add to all future classes:
 .cro							{ background:url(flags/CRO.jpg) center center no-repeat; background-size:cover;  }
 .cro-qtr						{ background:url(flags/CRO.jpg) center center no-repeat; background-size:cover;  }
 .cro-semi						{ background:url(flags/CRO.jpg) center center no-repeat; background-size:cover;  }
-.cro-final						{ background:url(flags/CRO.jpg) center center no-repeat; background-size:cover;  }
-.cro-winner						{ background:url(flags/CRO.jpg) center center no-repeat; background-size:cover;  }
+.cro-final						{ background:url(flags/CRO.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.cro-winner						{ background:url(flags/CRO.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
 
 /** BRAZIL **/
 .bra							{ background:url(flags/BRA.jpg) center center no-repeat; background-size:cover;  }
