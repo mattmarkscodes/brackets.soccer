@@ -125,8 +125,8 @@ When a country is eliminated, add to all future classes:
 .mar							{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover;  }
 .mar-qtr						{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover;  }
 .mar-semi						{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover;  }
-.mar-final						{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover;  }
-.mar-winner						{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover;  }
+.mar-final						{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
+.mar-winner						{ background:url(flags/MAR.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
 
 /** CROATIA **/
 .cro							{ background:url(flags/CRO.jpg) center center no-repeat; background-size:cover;  }
