@@ -98,7 +98,7 @@ When a country is eliminated, add to all future classes:
 .fra-qtr						{ background:url(flags/FRA.jpg) center center no-repeat; background-size:cover;  }
 .fra-semi						{ background:url(flags/FRA.jpg) center center no-repeat; background-size:cover;  }
 .fra-final						{ background:url(flags/FRA.jpg) center center no-repeat; background-size:cover;  }
-.fra-winner						{ background:url(flags/FRA.jpg) center center no-repeat; background-size:cover;  }
+.fra-winner						{ background:url(flags/FRA.jpg) center center no-repeat; background-size:cover; opacity:.3; -webkit-filter: grayscale(100%); }
 
 /** AUSTRALIA **/
 .aus							{ background:url(flags/AUS.jpg) center center no-repeat; background-size:cover;  }

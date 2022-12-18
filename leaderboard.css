@@ -116,14 +116,22 @@ a { text-decoration:none; color:inherit; }
 }
 
 .leaderboard ul li:nth-child(2) {
-  background:#3f8be9; (tied first, so discourage 2nd background color)
+  background:#49a1f5; (tied first, so discourage 2nd background color)
 }
 
 .leaderboard ul li:nth-child(3) {
   background: #3675dc;
 }
 
-.leaderboard ul li:nth-child(n+4) {
+.leaderboard ul li:nth-child(4) {
+  background: #3675dc;
+}
+
+.leaderboard ul li:nth-child(5) {
+  background: #3675dc;
+}
+
+.leaderboard ul li:nth-child(n+6) {
   background: #2e62d2;
 }
 
